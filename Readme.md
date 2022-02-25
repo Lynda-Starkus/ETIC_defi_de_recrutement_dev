@@ -5,7 +5,7 @@
 ## **Mini-challenge de recrutement ETICien 👻**
 ### **Hello there !**
 Ce repo est déstiné aux ETICiens dans le cadre du rectruement de la cellule dev. Veuillez suivre les étapes suivantes pour soumettre votre solution: 
-
+<img src="banner.png" height="300"  />
 #### **Ressources et to-do (frontend):**
 > Dans "frontend" vous trouverez un template de siteweb one-page "portfolio" que vous devez recréer en utilisant des technologies et frameworks de votre choix.
 - Essayez d'utiliser vos propres informations/ressources (images, contenu, ...)
