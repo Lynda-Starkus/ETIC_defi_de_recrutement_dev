@@ -2,7 +2,7 @@
 
 
 
-## **Mini-challenge de recrutement ETICien**
+## **Mini-challenge de recrutement ETICien 👻**
 ### **Hello there !**
 Ce repo est déstiné aux ETICiens dans le cadre du rectruement de la cellule dev. Veuillez suivre les étapes suivantes pour soumettre votre solution: 
 
@@ -32,5 +32,9 @@ Ce repo est déstiné aux ETICiens dans le cadre du rectruement de la cellule de
 
 > 3°/ Submit a pull request
 
+#### **Deadline : 05/03/2022**
+
+
+## **ETICiennement ! ❤️**
 
 
