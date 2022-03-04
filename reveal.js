@@ -12,7 +12,6 @@ function handleIntersection(entries) {
         }
     });
 }
-
 const observer = new IntersectionObserver(handleIntersection);
 
 targets.forEach(target => observer.observe(target));

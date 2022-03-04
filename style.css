@@ -51,7 +51,8 @@ a:hover {
 /* Partie principale */
 #principal {
     color: white;
-    background-color: #326273;
+    background-color: rgba(50, 98, 115, 0.8);
+    
 }
 #contenu {
     font-family: "Rubik";
@@ -389,4 +390,16 @@ a:hover {
 	75% {
 		text-shadow: -1.5px 1.5px 0 #0ff, -1.5px 1.5px 0 #f00;
 	}
+}
+/* BACKGROUND VIDEO */
+#background-video {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 }

@@ -68,6 +68,14 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+  else {
+    if (event.target == lancer) {
+    lancer.style.display = "none";
+    site.style.display = "block"
+    audio.pause();
+    audio.currentTime = 0;
+    }
+  }
 } 
 
 var tiktok = document.getElementById("lanceTiktok");
@@ -85,12 +93,4 @@ tiktok.onclick = function() {
     audio.currentTime = 0;
   }, 9000);
 }
-window.onclick = function(event) {
-  if (event.target == lancer) {
-    lancer.style.display = "none";
-    site.style.display = "block"
-    audio.pause();
-    audio.currentTime = 0;
-  }
-} 
 
