@@ -74,6 +74,7 @@ window.onclick = function(event) {
     site.style.display = "block"
     audio.pause();
     audio.currentTime = 0;
+    clearInterval(myInterval);
     }
   }
 } 
@@ -86,7 +87,7 @@ tiktok.onclick = function() {
   lancer.style.display = "flex"
   site.style.display = "none"
   audio.play();
-  setInterval(function() {
+  myInterval = setInterval(function() {
     lancer.style.display = "none"
     site.style.display = "block"
     audio.pause();
