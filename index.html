@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamine</title>
+    <script src="https://kit.fontawesome.com/44f630b3d6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="site">
+    <section class="partie" id="principal">
+        <video id="background-video" autoplay loop muted>
+
+            <source src="vid.mp4" type="video/mp4">
+            
+        </video>
+        <nav>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about-me">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="contenu">
+            <section id="details" class="affiche">
+                <img class="photo-principale" src="avatar.jpg" />
+                <div>
+                    <h1>BETRAOUIMOHAMMEDALIABDELMOUNAIM</h1>
+                    <!-- <p>Lamine aussi, parce que trois prénoms c'est souvent pas assez</p>-->
+                </div>
+            </section>
+            <section id="reseaux" class="affiche">
+                <div><a href="https://instagram.com/the_lamine" target="_blank"><i onclick="playSounds()" class="fa-brands fa-instagram fa-2x"></i></a></div>
+                <div><a href="https://www.facebook.com/lamine.betraoui.3" target="_blank"><i class="fa-brands fa-facebook fa-2x"></i></a></div>
+                <div><a href="https://www.linkedin.com/in/mohammed-lamine-betraoui-91598a209/" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a></div>
+                <div><i id="lanceTiktok" class="fa-brands fa-tiktok fa-2x"></i></div>
+            </section>
+        </section>
+    </section>
+    <section class="partie" id="portfolio">
+        <h1 class="affiche">Portfolio</h1>
+        <div id="photos" class="affiche">
+            <div class="openModal photo photo1"><p>Lamine prouve que 0 divise 0</p></div>
+            <div class="openModal photo photo2"><p>Lamine se fait un max de kichta</p></div>
+            <div class="openModal photo photo3"><p>Lamine prend la pose car une pause s'impose</p></div>
+            <div class="openModal photo photo4"><p>Lamine se prépare à combattre l'ennemi</p></div>
+
+        </div>
+    </section>
+    <section class="partie" id="about-me">
+        <h1 class="affiche">Justifions mon existence</h1>
+        <div id="about">
+            <div id="sideimg">
+                <img class="affiche" src="ava2.jpg" />
+            </div>
+            <p class="affiche">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates animi nisi quaerat beatae ipsa, quam laboriosam voluptatem explicabo fuga cupiditate veniam? Reiciendis voluptatibus omnis fugiat ad ipsum excepturi possimus aperiam laudantium nihil, at voluptate hic numquam itaque pariatur laborum molestiae ratione autem modi expedita ut, impedit provident? Doloribus, in ipsam. Qui, unde nam. Atque cumque aliquam nobis provident illum? Asperiores repellendus maiores omnis nostrum ipsum atque, sit blanditiis, dolores placeat natus beatae. Reprehenderit aliquid aliquam vel voluptate praesentium numquam adipisci explicabo in, dicta velit odio possimus sint repellendus! Quibusdam maxime tempora corrupti magnam doloremque hic illo aliquam ullam nobis asperiores.</p>
+        </div>
+    </section>
+    <section class="partie" id="contact">
+        <h1 class="affiche">Besoin d'une démonstration ? Contactez-moi</h1>
+        <div id="ontype" class="affiche typing">
+            À admettre.</div>
+        <div class="footer"><p>Pas de footer, mais un Easter Egg : autorisez le son sur votre navigateur et cherchez l'animation secrète (vous me pardonnerez pour le form, ainsi).</p>
+    </section>
+    <div id="leModal" class="modal">
+        <div class="modal-content">
+          <span class="close"></span>
+          <img id="imgModal" src="" />
+          <h2 id="titreModal">Lamine prend la pose car une pause s'impose</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi beatae ut qui voluptas sit ex animi officiis provident dolores repudiandae dolor, corrupti quaerat corporis, fugit cum incidunt! Quae et ad, debitis nam reprehenderit ullam eveniet modi, consequatur repudiandae nisi suscipit.</p>
+    </div>
+      
+      </div>
+    
+    <button onclick="versLeHaut()" id="top" title=""><i class="fa-solid fa-circle-arrow-up fa-3x"></i></button> 
+
+    <!-- BONUS TIKTOK HAHAHAHA -->
+    </div>
+    <div id="gotiktok"><h1 class="tiktok">TikTok</h1></div>
+    <script src="script.js"></script>
+    <script src="reveal.js"></script>
+</body>
+</html>
